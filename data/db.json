@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": "usr_demo_1",
+      "email": "demo@thecomplyone.com",
+      "name": "Demo Account",
+      "passwordHash": "$2b$10$8ClQFWOph3BI9OoEQ/i20udWDG5yC8BIXO6SHNpsomCNiphEezfm2",
+      "phone": "+91 9876543210",
+      "entityType": "pvt-ltd",
+      "createdAt": "2026-09-03T16:13:48.838Z",
+      "updatedAt": "2026-09-03T16:15:58.726Z"
+    },
+    {
+      "id": "usr_1788452222990_tg2ld",
+      "email": "rahul@startup.com",
+      "name": "Rahul Sharma",
+      "passwordHash": "$2b$10$pbza4ikwZAgd53RCJyq0VeOC8FCzz6EfF2ymQBvVsuIuq4d6boKZS",
+      "createdAt": "2026-09-03T16:17:02.990Z",
+      "updatedAt": "2026-09-03T16:17:02.990Z"
+    },
+    {
+      "id": "usr_1788452661751_orqcw",
+      "email": "victoryspark577@gmail.com",
+      "name": "Victory Spark",
+      "passwordHash": "$2b$10$6xnSbdd.TRLRqVdhSlgFgevaLJGM0v5T2aJEpq/HSM2/CzohqNMaS",
+      "phone": "7977245212",
+      "entityType": "pvt-ltd",
+      "createdAt": "2026-09-03T16:24:21.751Z",
+      "updatedAt": "2026-09-03T16:25:23.611Z"
+    },
+    {
+      "id": "usr_1788453392932_ynnqu",
+      "email": "mufeedk797724@gmail.com",
+      "name": "mufeed",
+      "passwordHash": "$2b$10$CyfX6tYl9HKzwHQfiKrgoOmPJpNQtIke2ITYS13/v2eLi0oBmeD.e",
+      "phone": "7977245212",
+      "entityType": "pvt-ltd",
+      "createdAt": "2026-09-03T16:36:32.932Z",
+      "updatedAt": "2026-09-03T16:39:43.679Z"
+    }
+  ],
+  "otps": [
+    {
+      "id": "otp_1788452028918_nna31",
+      "email": "demo@thecomplyone.com",
+      "otpHash": "$2b$10$hP1qKWkohzcwdo7.nRLvB.kM.WVW8Z.cZfeckoz8kbz97j350qJdG",
+      "expiresAt": "2026-09-03T16:23:48.917Z",
+      "used": true,
+      "createdAt": "2026-09-03T16:13:48.918Z"
+    },
+    {
+      "id": "otp_1788452083582_iaj72",
+      "email": "demo@thecomplyone.com",
+      "otpHash": "$2b$10$BSnWTLE.VAnDpJs1Ouu3UusTdzdDIv18lCTu7OCKsHQPawDG48Wy.",
+      "expiresAt": "2026-09-03T16:24:43.581Z",
+      "used": true,
+      "createdAt": "2026-09-03T16:14:43.582Z"
+    },
+    {
+      "id": "otp_1788452261685_g62vx",
+      "email": "rahul@startup.com",
+      "otpHash": "$2b$10$rWwHArep9NuLMJRJIfCCM.HkxdduthhqiEpcFhEmiFTiYM/eowfUm",
+      "expiresAt": "2026-09-03T16:27:41.683Z",
+      "used": false,
+      "createdAt": "2026-09-03T16:17:41.685Z"
+    },
+    {
+      "id": "otp_1788452672408_6ve0i",
+      "email": "victoryspark577@gmail.com",
+      "otpHash": "$2b$10$Hhak7XVppBi8R6qqIFaKOukx4RJnBIDlG0ieep6DPnRj4O5sZhdLq",
+      "expiresAt": "2026-09-03T16:34:32.406Z",
+      "used": true,
+      "createdAt": "2026-09-03T16:24:32.408Z"
+    },
+    {
+      "id": "otp_1788453413338_dh2lp",
+      "email": "mufeedk797724@gmail.com",
+      "otpHash": "$2b$10$JAC2Q/kfr8tS1lzrhTnkre.JM4M4gzIoNb4J06Fu9TPW3h4FRJ06u",
+      "expiresAt": "2026-09-03T16:46:53.336Z",
+      "used": true,
+      "createdAt": "2026-09-03T16:36:53.338Z"
+    },
+    {
+      "id": "otp_1788453483935_kvftj",
+      "email": "mufeedk797724@gmail.com",
+      "otpHash": "$2b$10$OPR.dXtQxrfYrPScAWbML.ZDF.l8Iy0jDcBPSrT8HsD6niVm0tJQC",
+      "expiresAt": "2026-09-03T16:48:03.933Z",
+      "used": true,
+      "createdAt": "2026-09-03T16:38:03.935Z"
+    },
+    {
+      "id": "otp_1788532735323_2oa7t",
+      "email": "victoryspark577@gmail.com",
+      "otpHash": "$2b$10$7Og/X/JVBQdRVhk097Eq5ugvNE/VIMB2LgLdxRUKXSppVz6VEkq/m",
+      "expiresAt": "2026-09-04T14:48:55.322Z",
+      "used": false,
+      "createdAt": "2026-09-04T14:38:55.334Z"
+    }
+  ]
+}
