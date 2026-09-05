@@ -25,10 +25,10 @@ loadEnvFile(path.join(process.cwd(), ".env"));
 
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/the-comply-one";
 
-const ADMIN_NAME = process.env.ADMIN_NAME || "Admin The Comply One";
-const ADMIN_EMAIL = (process.env.ADMIN_EMAIL || "admin@thecomplyone.com").toLowerCase().trim();
-const ADMIN_MOBILE = process.env.ADMIN_MOBILE || "9876543210";
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "Admin@ComplyOne2026!";
+const ADMIN_NAME = process.env.ADMIN_NAME || "Administrator";
+const ADMIN_EMAIL = (process.env.ADMIN_EMAIL || "admin@example.local").toLowerCase().trim();
+const ADMIN_MOBILE = process.env.ADMIN_MOBILE || "0000000000";
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "ChangeMeInEnv!";
 
 const UserSchema = new mongoose.Schema(
   {

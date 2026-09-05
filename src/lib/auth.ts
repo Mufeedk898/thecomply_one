@@ -48,7 +48,7 @@ export const authOptions: NextAuthOptions = {
     strategy: "jwt",
     maxAge: 30 * 24 * 60 * 60, // 30 days
   },
-  secret: process.env.AUTH_SECRET || process.env.NEXTAUTH_SECRET || "the-comply-one-super-secret-key-32-chars-minimum",
+  secret: process.env.AUTH_SECRET || process.env.NEXTAUTH_SECRET,
   providers: [
     CredentialsProvider({
       name: "Credentials",
@@ -124,7 +124,10 @@ export interface SessionUser {
 
 export function createSessionToken(user: { id: string; email: string; name?: string }): string {
   const payload = JSON.stringify({ ...user, exp: Date.now() + 7 * 24 * 60 * 60 * 1000 });
-  const secret = process.env.AUTH_SECRET || process.env.NEXTAUTH_SECRET || "the-comply-one-super-secret-key-32-chars-minimum";
+  const secret = process.env.AUTH_SECRET || process.env.NEXTAUTH_SECRET || "";
+  if (!secret) {
+    throw new Error("AUTH_SECRET or NEXTAUTH_SECRET is required.");
+  }
   const signature = crypto.createHmac("sha256", secret).update(payload).digest("hex");
   return `${Buffer.from(payload).toString("base64url")}.${signature}`;
 }
