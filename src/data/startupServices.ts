@@ -829,5 +829,525 @@ export const STARTUP_SERVICES_DATA: Record<string, StartupServiceData> = {
     ],
     seoTitle: "Public Limited Company Registration Online India | The Comply One",
     seoDescription: "Register Public Limited Company online in 10-14 days. Includes MCA name approval, 3 DINs, MoA, AoA, CIN, PAN, TAN, GSTIN & ISIN guidance."
+  },
+
+  "indian-subsidiary": {
+    slug: "indian-subsidiary",
+    route: "/indian-subsidiary",
+    title: "Indian Subsidiary Registration",
+    subtitle: "Incorporate a wholly owned subsidiary or joint venture in India for foreign parent entities with 100% FDI compliance.",
+    heroBadge: "Foreign Direct Investment (FDI) Compliant",
+    turnaroundTime: "12 - 18 Working Days",
+    rating: 4.9,
+    reviewCount: 1240,
+    overview: {
+      whatIsTitle: "What is an Indian Subsidiary?",
+      whatIsContent: "An Indian Subsidiary is an entity incorporated in India under the Companies Act 2013 where a foreign parent company holds 50% or more (often 100% as a Wholly Owned Subsidiary / WOS) of the equity share capital. It allows international businesses to operate directly in India under RBI, FEMA, and MCA guidelines.",
+      whoShouldChooseTitle: "Who Should Choose an Indian Subsidiary?",
+      whoShouldChooseContent: "Foreign corporations, overseas startups, multinational enterprises, and international investors looking to set up an active operational base, hire Indian talent, generate local revenue, and tap into the fast-growing Indian consumer market."
+    },
+    benefits: [
+      {
+        title: "100% Foreign Ownership (FDI)",
+        description: "Most sectors in India allow 100% Foreign Direct Investment under the automatic route without prior government approval.",
+        iconName: "Globe"
+      },
+      {
+        title: "Limited Liability Protection",
+        description: "The liability of the foreign parent company is strictly limited to the value of unpaid share capital held in India.",
+        iconName: "ShieldCheck"
+      },
+      {
+        title: "Access to Indian Talent & Market",
+        description: "Directly hire world-class Indian engineering, management, and operational talent and bill domestic clients seamlessly.",
+        iconName: "Users"
+      },
+      {
+        title: "Tax Incentives & SEZ Benefits",
+        description: "Take advantage of India's competitive corporate tax rates, export incentives, and special economic zone (SEZ) benefits.",
+        iconName: "TrendingUp"
+      }
+    ],
+    processSteps: [
+      {
+        stepNumber: "01",
+        title: "Apostille & Documentation",
+        description: "Foreign promoters notarize and apostille parent company incorporation documents, board resolutions, and ID proofs."
+      },
+      {
+        stepNumber: "02",
+        title: "DSC & Name Approval (SPICe+ Part A)",
+        description: "Obtain Digital Signature Certificates for resident and foreign directors and reserve company name with MCA."
+      },
+      {
+        stepNumber: "03",
+        title: "SPICe+ Filing & MCA Approval",
+        description: "Submit SPICe+ Part B along with MoA, AoA, DIN allocations, PAN, TAN, and EPFO/ESIC registrations."
+      },
+      {
+        stepNumber: "04",
+        title: "Bank Account & Share Capital Inflow",
+        description: "Open an Indian capital bank account and receive foreign share remittance via authorized banking channels."
+      },
+      {
+        stepNumber: "05",
+        title: "RBI & FC-GPR Reporting",
+        description: "File Form FC-GPR on the RBI FIRMS portal within 30 days of share allotment for complete FEMA compliance."
+      }
+    ],
+    documentsRequired: [
+      "Certificate of Incorporation & Charter of Foreign Parent Company (Apostilled/Consularized)",
+      "Board Resolution authorizing Indian Subsidiary setup & authorized signatory",
+      "Passport copy & address proof of foreign directors (Notarized/Apostilled)",
+      "PAN and Aadhaar card of at least one Indian Resident Director",
+      "Registered Office proof in India (Electricity bill + NOC from landlord + Rent Agreement)",
+      "Draft Memorandum of Association (MoA) and Articles of Association (AoA)"
+    ],
+    documentsDisclaimer: "Foreign documents must be notarized and apostilled in the home country (or consularized if non-Hague). At least one resident director is mandatory.",
+    pricingTiers: [
+      {
+        name: "Standard WOS Setup",
+        priceTag: "Starting from ₹24,999",
+        description: "Basic Indian Subsidiary incorporation for foreign entities.",
+        features: [
+          "Name Reservation with MCA",
+          "Class 3 DSC for 2 Directors",
+          "DIN for Foreign & Resident Directors",
+          "Drafting Custom MoA & AoA",
+          "Certificate of Incorporation (CIN), PAN & TAN"
+        ]
+      },
+      {
+        name: "Full Operational Setup",
+        priceTag: "Starting from ₹39,999",
+        description: "Incorporation + Bank Account + GST + Initial FDI Advisory.",
+        features: [
+          "Everything in Standard WOS Setup",
+          "GST Registration (GSTIN)",
+          "Assistance in Corporate Bank Account Opening",
+          "FDI Inflow Regulatory Guidance",
+          "INC-20A Commencement of Business Filing",
+          "Dedicated Senior FEMA / MCA Consultant"
+        ],
+        recommended: true
+      },
+      {
+        name: "Enterprise FDI & RBI Filing",
+        priceTag: "Starting from ₹59,999",
+        description: "Complete turn-key incorporation with RBI FIRMS & FC-GPR reporting.",
+        features: [
+          "Everything in Full Operational Setup",
+          "Form FC-GPR Filing on RBI FIRMS Portal",
+          "Foreign Remittance Inward Certificate (FIRC) processing",
+          "CS Valuation Certificate & Statutory Registers",
+          "1st Year Compliance & RBI Annual Return (FLA) guidance"
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: "Can a foreign company own 100% shares of an Indian Subsidiary?",
+        answer: "Yes, foreign parent companies can hold 100% equity in an Indian company under the Automatic Route for most sectors without prior government approval."
+      },
+      {
+        question: "Is an Indian resident director mandatory?",
+        answer: "Yes, under Section 149(3) of the Companies Act 2013, every company in India must have at least one director who has resided in India for at least 182 days in the financial year."
+      },
+      {
+        question: "What is FC-GPR and when must it be filed?",
+        answer: "Form FC-GPR must be filed with the Reserve Bank of India (RBI) via the FIRMS portal within 30 days of allotting shares to the foreign investor."
+      }
+    ],
+    seoTitle: "Indian Subsidiary Registration Online India | Wholly Owned Subsidiary (WOS) | The Comply One",
+    seoDescription: "Register an Indian Subsidiary or Wholly Owned Subsidiary online. Complete MCA incorporation, FDI compliance, RBI FIRMS FC-GPR filing, PAN, TAN & corporate bank account support."
+  },
+
+  "producer-company": {
+    slug: "producer-company",
+    route: "/producer-company",
+    title: "Producer Company Registration",
+    subtitle: "Form a Farmer Producer Company (FPO/FPC) to empower primary agricultural and rural producers with corporate benefits.",
+    heroBadge: "Empowering Agri & Primary Producers",
+    turnaroundTime: "10 - 15 Working Days",
+    rating: 4.8,
+    reviewCount: 810,
+    overview: {
+      whatIsTitle: "What is a Producer Company?",
+      whatIsContent: "A Producer Company is a hybrid corporate entity combining the cooperative ethos with corporate efficiency under Part IXA of the Companies Act. Formed by primary producers such as farmers, dairy owners, and artisans, it offers limited liability and seamless access to government grants, credit, and markets.",
+      whoShouldChooseTitle: "Who Should Choose Producer Company?",
+      whoShouldChooseContent: "Farmer producer organizations (FPOs), agricultural clusters, dairy cooperatives, handloom artisan groups, and rural cooperatives seeking formal corporate structure, institutional loans, NABARD funding, and government subsidies."
+    },
+    benefits: [
+      {
+        title: "Access to NABARD & SFAC Grants",
+        description: "Eligible for central and state government credit guarantee schemes, equity grants, and direct NABARD support.",
+        iconName: "Wheat"
+      },
+      {
+        title: "Cooperative Spirit with Limited Liability",
+        description: "One member one vote regardless of shareholding, ensuring democratic management with corporate legal protection.",
+        iconName: "ShieldCheck"
+      },
+      {
+        title: "Bulk Bargaining & Market Reach",
+        description: "Aggregate produce for bulk purchasing of inputs and direct selling to retail chains at high profit margins.",
+        iconName: "TrendingUp"
+      },
+      {
+        title: "Income Tax Exemptions",
+        description: "Enjoy 100% tax deductions under Section 80P/80PA of the Income Tax Act for qualifying agricultural producer activities.",
+        iconName: "Award"
+      }
+    ],
+    processSteps: [
+      {
+        stepNumber: "01",
+        title: "Producer Group Member Verification",
+        description: "Collate details of 10 or more individual primary producers or 2 or more producer institutions."
+      },
+      {
+        stepNumber: "02",
+        title: "DSC & Name Approval",
+        description: "Issue Class 3 DSCs for directors and apply for name ending with 'Producer Company Limited'."
+      },
+      {
+        stepNumber: "03",
+        title: "Custom MoA & AoA Drafting",
+        description: "Draft statutory producer bylaws adhering to Part IXA producer objects and mutual assistance principles."
+      },
+      {
+        stepNumber: "04",
+        title: "SPICe+ Incorporation Filing",
+        description: "Submit SPICe+ Part B to MCA with member verification certificates, land records, or producer proofs."
+      },
+      {
+        stepNumber: "05",
+        title: "Certificate & Bank Account Setup",
+        description: "Receive Certificate of Incorporation (CoI), PAN, TAN, and open corporate agricultural bank account."
+      }
+    ],
+    documentsRequired: [
+      "PAN Card and Aadhaar Card of all 10+ promoter members & directors",
+      "Proof of agricultural or primary producer activity (Khasra/Khatauni, Patta, or local authority certificate)",
+      "Passport size photographs of all promoter directors",
+      "Bank statements / utility bills of directors (<2 months old)",
+      "Registered office address proof (Electricity bill + Landlord NOC + Rent Agreement)"
+    ],
+    documentsDisclaimer: "Minimum 10 individual primary producers or 2 producer institutions and minimum 5 directors are required.",
+    pricingTiers: [
+      {
+        name: "Producer Standard",
+        priceTag: "Starting from ₹19,999",
+        description: "Basic incorporation for agricultural producer clusters.",
+        features: [
+          "Name Reservation with MCA",
+          "Class 3 DSC for 5 Directors",
+          "5 DIN Allocations",
+          "Drafting Producer MoA & AoA",
+          "Certificate of Incorporation & CIN"
+        ]
+      },
+      {
+        name: "FPO Growth Package",
+        priceTag: "Starting from ₹29,999",
+        description: "Incorporation + PAN, TAN + GST + NABARD/SFAC Grant Guidance.",
+        features: [
+          "Everything in Producer Standard",
+          "Company PAN & TAN Cards",
+          "GST Registration",
+          "Assistance with Agri Bank Account",
+          "NABARD FPO Scheme Guidelines & Documentation",
+          "Dedicated Agri CS Advisor"
+        ],
+        recommended: true
+      },
+      {
+        name: "Complete Agri-Business Retainer",
+        priceTag: "Starting from ₹44,999",
+        description: "End-to-end setup + FSSAI Food License + Mandi License Advisory.",
+        features: [
+          "Everything in FPO Growth Package",
+          "State/Central FSSAI Registration",
+          "INC-20A Commencement Filing",
+          "Statutory Member Register Printing",
+          "First Year AGM & ROC Compliance Support"
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: "What is the minimum number of members needed to form a Producer Company?",
+        answer: "A minimum of 10 individual primary producers or 2 producer institutions (or a combination thereof) and at least 5 directors are required."
+      },
+      {
+        question: "Are Producer Companies eligible for 100% tax deduction?",
+        answer: "Yes, under Section 80PA of the Income Tax Act, 100% deduction is available to eligible Producer Companies with total turnover under ₹100 crore on agricultural marketing profits."
+      },
+      {
+        question: "Can a Producer Company be converted into a normal Private Limited Company?",
+        answer: "No, under Indian corporate law, a Producer Company cannot become or convert into a public or private company."
+      }
+    ],
+    seoTitle: "Producer Company Registration Online India | Farmer Producer Company (FPC/FPO) | The Comply One",
+    seoDescription: "Register a Producer Company online in India. Specially designed for farmers, dairy, and primary producer clusters. Includes MCA filing, 5 DINs, MoA/AoA, PAN, TAN & NABARD support."
+  },
+
+  "section-8-company": {
+    slug: "section-8-company",
+    route: "/section-8-company",
+    title: "Section 8 Company Registration",
+    subtitle: "Incorporate a non-profit NGO or charitable company with nationwide jurisdiction and maximum donor trust.",
+    heroBadge: "India's Highest Credibility Non-Profit Entity",
+    turnaroundTime: "10 - 15 Working Days",
+    rating: 4.9,
+    reviewCount: 1450,
+    overview: {
+      whatIsTitle: "What is a Section 8 Company?",
+      whatIsContent: "A Section 8 Company is a company registered under Section 8 of the Companies Act, 2013 for promoting charitable objects like education, commerce, art, science, sports, healthcare, social welfare, religion, and environmental protection. Profits are reinvested purely into fulfilling its charitable objects.",
+      whoShouldChooseTitle: "Who Should Choose Section 8 Company?",
+      whoShouldChooseContent: "Social entrepreneurs, CSR foundations, philanthropists, educationalists, research institutes, and charitable organizations looking for institutional donor credibility, government grants, and foreign contribution eligibility (FCRA)."
+    },
+    benefits: [
+      {
+        title: "No Minimum Capital & No 'Limited' Suffix",
+        description: "Can operate without using the words 'Limited' or 'Private Limited' in its registered legal name.",
+        iconName: "Heart"
+      },
+      {
+        title: "Top Credibility for CSR & Donors",
+        description: "Recognized by Indian corporate CSR committees and international donors as the most transparent non-profit structure.",
+        iconName: "Award"
+      },
+      {
+        title: "12A & 80G Tax Exemption Eligible",
+        description: "Eligible for full income tax exemptions under Section 12A and 50% tax deductions for donors under Section 80G.",
+        iconName: "ShieldCheck"
+      },
+      {
+        title: "Pan-India Jurisdiction",
+        description: "Unlike state-specific Society registrations, a Section 8 Company has statutory nationwide jurisdiction from day one.",
+        iconName: "Building2"
+      }
+    ],
+    processSteps: [
+      {
+        stepNumber: "01",
+        title: "Name Reservation (SPICe+ Part A)",
+        description: "Apply for a unique non-profit name ending with Foundation, Association, Council, or Forum."
+      },
+      {
+        stepNumber: "02",
+        title: "DSC & DIN Allocation",
+        description: "Procure Class 3 DSCs and DINs for all initial directors and promoters."
+      },
+      {
+        stepNumber: "03",
+        title: "Section 8 License (Form INC-12)",
+        description: "Prepare 3-year projected income/expenditure statement and charitable objective charter to secure Central Government Section 8 license."
+      },
+      {
+        stepNumber: "04",
+        title: "SPICe+ Part B Incorporation",
+        description: "Submit SPICe+ Part B with MoA, AoA, PAN, and TAN applications to MCA."
+      },
+      {
+        stepNumber: "05",
+        title: "Certificate & 12A/80G Advisory",
+        description: "Receive Certificate of Incorporation (CoI) and apply for 12A & 80G tax exemption registrations."
+      }
+    ],
+    documentsRequired: [
+      "PAN Card & Aadhaar / Passport of minimum 2 Directors & Shareholders",
+      "Voter ID / Driving License / Bank Statement (<2 months old)",
+      "3-Year Projected Financial Budget & Statement of Objects",
+      "Registered Office proof (Electricity bill + Landlord NOC + Rent Agreement)",
+      "Passport size photographs of all directors"
+    ],
+    documentsDisclaimer: "Requires at least 2 directors and 2 shareholders. No minimum paid-up capital is prescribed.",
+    pricingTiers: [
+      {
+        name: "Standard NGO",
+        priceTag: "Starting from ₹16,999",
+        description: "Complete Section 8 incorporation and MCA license.",
+        features: [
+          "Name Reservation with MCA",
+          "Class 3 DSC for 2 Directors",
+          "DIN for 2 Directors",
+          "Drafting Non-Profit MoA & AoA",
+          "Section 8 License & Certificate of Incorporation"
+        ]
+      },
+      {
+        name: "NGO Foundation Pack",
+        priceTag: "Starting from ₹24,999",
+        description: "Incorporation + PAN, TAN + Section 12A & 80G Filing Assistance.",
+        features: [
+          "Everything in Standard NGO",
+          "Company PAN & TAN Cards",
+          "Provisional 12A Tax Exemption Filing",
+          "Provisional 80G Donor Tax Exemption Filing",
+          "Drafting 3-Year Financial Estimates",
+          "Dedicated Non-Profit CS Consultant"
+        ],
+        recommended: true
+      },
+      {
+        name: "Complete CSR & Darpan Suite",
+        priceTag: "Starting from ₹37,999",
+        description: "Turn-key NGO setup with NITI Aayog Darpan & CSR-1 Registration.",
+        features: [
+          "Everything in NGO Foundation Pack",
+          "NITI Aayog NGO Darpan Registration",
+          "MCA Form CSR-1 Filing for Corporate CSR Funding",
+          "Statutory Minute Book & Share Ledger",
+          "First Year ROC Compliance Advisory"
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: "Can directors or members take dividends from a Section 8 Company?",
+        answer: "No. The law strictly prohibits the payment of dividends or distribution of profits to members. All surpluses must be applied exclusively towards promoting charitable objectives."
+      },
+      {
+        question: "Can a Section 8 Company own property?",
+        answer: "Yes. As a distinct corporate legal entity, a Section 8 Company can purchase, hold, and sell immovable property in its own name."
+      },
+      {
+        question: "Is a Section 8 Company better than a Trust or Society?",
+        answer: "Yes, because it operates under Central Government MCA oversight with uniform national validity, corporate governance standards, and unmatched transparency for institutional donors."
+      }
+    ],
+    seoTitle: "Section 8 Company Registration Online India | NGO Foundation | The Comply One",
+    seoDescription: "Incorporate Section 8 Non-Profit Company online in India. Get MCA license, Section 12A & 80G registration, NITI Aayog Darpan, CSR-1 filing, PAN & TAN in 10-15 days."
+  },
+
+  "trust-registration": {
+    slug: "trust-registration",
+    route: "/trust-registration",
+    title: "Trust Registration Online",
+    subtitle: "Register a Public Charitable or Religious Trust with custom Trust Deed drafting and local Sub-Registrar execution.",
+    heroBadge: "Public Charitable & Religious Trust",
+    turnaroundTime: "7 - 12 Working Days",
+    rating: 4.8,
+    reviewCount: 1120,
+    overview: {
+      whatIsTitle: "What is a Public Charitable Trust?",
+      whatIsContent: "A Public Charitable Trust is a traditional non-profit legal entity established under the Indian Trusts Act, 1882 (or state public trusts acts) by a Settlor dedicating property or funds for the benefit of the public or a specific charitable cause.",
+      whoShouldChooseTitle: "Who Should Choose Trust Registration?",
+      whoShouldChooseContent: "Families, religious communities, educational trust creators, hospital founders, and community benefactors looking for a flexible non-profit structure with low annual compliance and permanent trustee governance."
+    },
+    benefits: [
+      {
+        title: "Simpler Governance",
+        description: "Managed by a Board of Trustees according to the Trust Deed without mandatory complex MCA ROC filings.",
+        iconName: "Heart"
+      },
+      {
+        title: "Perpetual Succession",
+        description: "The trust continues to exist perpetually irrespective of changes in trustees or the death of the settlor.",
+        iconName: "ShieldCheck"
+      },
+      {
+        title: "12A & 80G Tax Deductions",
+        description: "Public trusts are eligible for 100% income tax exemption under 12A and donor deduction benefits under 80G.",
+        iconName: "TrendingUp"
+      },
+      {
+        title: "Dedicated Property Protection",
+        description: "Trust assets and real estate are legally protected exclusively for the stated charitable or religious objectives.",
+        iconName: "Building2"
+      }
+    ],
+    processSteps: [
+      {
+        stepNumber: "01",
+        title: "Trust Deed Drafting",
+        description: "Draft customized Trust Deed outlining trust objectives, trustee powers, quorum, and beneficiaries."
+      },
+      {
+        stepNumber: "02",
+        title: "Stamp Duty Payment",
+        description: "Pay appropriate state stamp duty on the Trust Deed based on initial settlement fund."
+      },
+      {
+        stepNumber: "03",
+        title: "Sub-Registrar Execution",
+        description: "Present Trust Deed for formal physical registration before the local Sub-Registrar with two witnesses."
+      },
+      {
+        stepNumber: "04",
+        title: "Trust PAN & TAN Allotment",
+        description: "Apply for separate Trust PAN and TAN cards under the entity name."
+      },
+      {
+        stepNumber: "05",
+        title: "12A & 80G Exemption Filing",
+        description: "File Form 10A on the Income Tax portal for provisional 12A & 80G tax exemptions."
+      }
+    ],
+    documentsRequired: [
+      "PAN Card and Aadhaar Card of Settlor and all Trustees (minimum 2)",
+      "2 Passport size photographs of Settlor, Trustees, and 2 Witnesses",
+      "Trust Deed printed on appropriate non-judicial stamp paper",
+      "Registered Office proof (Electricity bill + NOC from property owner)",
+      "Proof of initial fund dedication / settlement contribution"
+    ],
+    documentsDisclaimer: "Requires at least 1 Settlor and minimum 2 Trustees. Two physical witnesses required at Sub-Registrar office.",
+    pricingTiers: [
+      {
+        name: "Trust Deed Draft",
+        priceTag: "Starting from ₹7,999",
+        description: "Custom lawyer drafted Trust Deed and consultation.",
+        features: [
+          "Custom Charitable Trust Deed Drafting",
+          "Stamp Duty Calculation Guidance",
+          "Checklist of Sub-Registrar Requirements",
+          "PAN Card Application Assistance"
+        ]
+      },
+      {
+        name: "Standard Trust Registration",
+        priceTag: "Starting from ₹14,999",
+        description: "Complete end-to-end trust registration with Sub-Registrar.",
+        features: [
+          "Everything in Trust Deed Draft",
+          "Local Sub-Registrar Appointment Scheduling",
+          "Execution Guidance & Coordination",
+          "Trust PAN Card Procurement",
+          "Trust Bank Account Opening Kit"
+        ],
+        recommended: true
+      },
+      {
+        name: "Trust + 12A & 80G Exemption",
+        priceTag: "Starting from ₹24,999",
+        description: "Full Trust setup + Income Tax Exemption Filing.",
+        features: [
+          "Everything in Standard Trust Registration",
+          "Form 10A Filing for Section 12A Exemption",
+          "Form 10A Filing for Section 80G Donor Deductions",
+          "NITI Aayog NGO Darpan Registration",
+          "Dedicated Senior Tax Advocate"
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: "What is the minimum number of trustees required to register a trust?",
+        answer: "A minimum of 2 trustees are required to register a public charitable trust, along with 1 settlor (who can also be a trustee)."
+      },
+      {
+        question: "Can a trust operate anywhere in India?",
+        answer: "Yes, a trust registered under the Indian Trusts Act can operate across India in accordance with its Trust Deed objectives."
+      },
+      {
+        question: "Is physical presence required for trust registration?",
+        answer: "Yes, the Settlor, Trustees, and 2 independent witnesses must physically visit the local Sub-Registrar's office for biometric and signature execution."
+      }
+    ],
+    seoTitle: "Trust Registration Online India | Charitable & Religious Trust Deed | The Comply One",
+    seoDescription: "Register a Public Charitable or Religious Trust online. Expert Trust Deed drafting, Sub-Registrar coordination, PAN, TAN, 12A & 80G income tax exemption filing in 7-12 days."
   }
 };
+
